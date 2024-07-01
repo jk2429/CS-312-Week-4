@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 //Dont need flag anymore
-mongoose.connect("mongodb+srv://admin-jett:adminpassword@cluster0.gg1bsoo.mongodb.net/todoListDB");
+mongoose.connect("mongodb+srv://usernam:password@cluster0.gg1bsoo.mongodb.net/todoListDB");
 
 const itemsSchema = {
 	Name: String
